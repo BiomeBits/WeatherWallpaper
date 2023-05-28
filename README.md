@@ -7,7 +7,7 @@ It requires Lively Wallpaper, and the command utility.
 You will also need an API key from OpenWeather.
 Full instructions are included.
 
-Premade videos of a scene in Skyrim can be downloaded [here](https://drive.google.com/drive/folders/1xF0Iz6BP_f_UGSkXBAFqbQ5xHxR2msvC?usp=sharing).
+Premade videos of a scene in Skyrim can be downloaded [here](https://drive.google.com/drive/folders/1xF0Iz6BP_f_UGSkXBAFqbQ5xHxR2msvC?usp=share_link).
 
 Thanks to rocksdanister and the [Lively](https://github.com/rocksdanister/lively) contributors for making Lively and the command utility that my script relies on.
 
