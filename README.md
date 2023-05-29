@@ -12,7 +12,7 @@ Premade videos of a scene in Skyrim can be downloaded [here](https://drive.googl
 Thanks to rocksdanister and the [Lively](https://github.com/rocksdanister/lively) contributors for making Lively and the command utility that my script relies on.
 
 ## Known Issues
-Sometimes if the task manager task isn't configured properly, the cmd terminal will pop up and minimise full screen games. Make sure you configure the task properly, or disable while you play.
+Sometimes if the task scheduler task isn't configured properly, the cmd terminal will pop up and minimise full screen games. Make sure you configure the task properly, or disable while you play.
 
 
 <a href="https://www.buymeacoffee.com/BiomeBits" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-3.svg" alt="Buy Me A Coffee" height="41" width="174"></a>
