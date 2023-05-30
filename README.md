@@ -15,7 +15,9 @@ Thanks to rocksdanister and the [Lively](https://github.com/rocksdanister/lively
 Sometimes task scheduler causes a cmd terminal to pop up and minimise full screen games. The solution is to run the batch file via a vbs script like so:
 
 Set WshShell = CreateObject("WScript.Shell")
+
 WshShell.Run chr(34) & "C:\path\to\WeatherWallpaper\Task_Scheduler_File.bat" & Chr(34), 0
+
 Set WshShell = Nothing
 
 Save as .vbs and run this through task scheduler instead of the .bat file directly
