@@ -115,4 +115,6 @@ current_wallpaper = get_current_wallpaper()
 for monitor in MONITORS:
     if video_file != current_wallpaper:
         set_wallpaper(video_file, monitor)
+        
+set_current_wallpaper(video_file)
 
