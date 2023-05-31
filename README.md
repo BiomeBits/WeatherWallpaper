@@ -4,6 +4,9 @@
 
 This is a little script that allows you to change your desktop wallpaper to a different video depending on the time of day and the weather.
 It requires python, and Lively Wallpaper and the command utility.
+
+When you install python, make sure you add it to PATH.
+
 You will also need an API key from OpenWeather.
 Full instructions are included.
 
