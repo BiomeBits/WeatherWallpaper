@@ -73,13 +73,13 @@ weather = get_weather().lower()
 # confirm the time of day - categorise
 if local_sunrise.time() <= current_time < time(12, 0):
     time_of_day = 'Morning'
-elif time(12, 0) <= current_time < local_sunset.time():
+elif time(12, 0) <= current_time < (datetime.combine(date.today(), local_sunset.time()) - timedelta(minutes=30)).time():
     time_of_day = 'Day'
-elif local_sunset.time() <= current_time < (datetime.combine(date.today(), local_sunset.time()) + timedelta(hours=1)).time():
+elif (datetime.combine(date.today(), local_sunset.time()) - timedelta(minutes=30)).time() <= current_time < (datetime.combine(date.today(), local_sunset.time()) + timedelta(minutes=30)).time():
     time_of_day = 'Sunset'
-elif (datetime.combine(date.today(), local_sunset.time()) + timedelta(hours=1)).time() <= current_time <= (datetime.combine(date.today(), local_sunset.time()) + timedelta(hours=2)).time():
+elif (datetime.combine(date.today(), local_sunset.time()) + timedelta(minutes=30)).time() <= current_time < (datetime.combine(date.today(), local_sunset.time()) + timedelta(minutes=90)).time():
     time_of_day = 'Evening'
-elif (datetime.combine(date.today(), local_sunset.time()) + timedelta(hours=2)).time() <= current_time <= time(23,59,59):
+elif (datetime.combine(date.today(), local_sunset.time()) + timedelta(minutes=90)).time() <= current_time < time(23,59,59):
     time_of_day = 'Night'
 elif time(0,0,0) <= current_time < local_sunrise.time():
     time_of_day = 'Night'
