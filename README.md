@@ -16,6 +16,8 @@ Premade videos of a scene in Skyrim can be downloaded [here](https://drive.googl
 
 If your wallpaper isn't updating, open the current_wallpaper.txt file, delete everything in it, save it, and run the task. This happens when the script runs before lively opens, and it thinks it already has the correct wallpaper set so it doesn't change it. Delay the task in task scheduler to prevent this.
 
+---
+
 Thanks to rocksdanister and the [Lively](https://github.com/rocksdanister/lively) contributors for making Lively and the command utility that my script relies on.
 
 
